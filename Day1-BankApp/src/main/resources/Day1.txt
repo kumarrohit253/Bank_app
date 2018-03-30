@@ -1,0 +1,65 @@
+ Spring Boot Advantage
+
+		*Autoconfig
+		*Spring boot CLI
+		*Spring Starter IO (1 entry in POM for java )
+		Embedded Tomcat(By default Tomcat is available to run and test)
+		YAML (replacement for properties file with array etc)
+		Profiling (Environment)
+		*Actuator Support(Provide production-ready features such as metrics, health checks and externalized configuration)
+		
+		* indicates major advantage
+		
+		
+		spring boot support 3 Lang java groovy and kotlin
+		
+		
+		
+		set http_proxy=id:password@inpunwbs02-wcg.corp.cpagemini.com 
+		
+
+		
+		
+		
+		spring boot internally does not have jsp jar to run jsp pages can be done by suing jaxb jars
+		
+		Template folder for temleaf 
+		
+		
+ Kafka	(https://github.com/MyTraining2018/Kafka)
+		Distributed syste(hight throughput environment we can acheive )
+		Horizontal Scalability
+		Intruduced by Linkedin in late 2010
+		Integration and Stream processing
+		2011 Kafka realse as open source along with apache , apache kafka
+		
+		
+		\\lin73000499
+		
+		;D:\kafka\zookeeper-3.4.10\bin\.
+		
+		D:\kafka\zookeeper-3.4.10\bin\.
+		
+		
+		
+		
+		SET PATH=%PATH%;D:\KR\kafka_2.11-0.9.0.0\kafka_2.11-0.9.0.0\bin;
+		.\bin\windows\kafka-server-start.bat .\config\server.properties
+		
+		to create topic
+		kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+		
+		
+		to create producer (inside window folder)
+		kafka-console-producer.bat --broker-list localhost:9092 --topic test1
+		to create consumer (inside window folder)
+		kafka-console-consumer.bat --zookeeper localhost:2181 --topic test1
+		
+		kafka-console-consumer.bat --zookeeper localhost:2181 --topic test --from-beginning
+
+		list 
+		https://stackoverflow.com/questions/40146921/command-to-get-kafka-broker-list-from-zookeeper 
+		to delete topic
+		kafka-run-class.bat kafka.admin.TopicCommand --delete --topic test --zookeeper localhost:2181
+		
+		PATH=C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\10.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Users\kumarohi\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\HashiCorp\Vagrant\bin;D:\TrainingAngularJS\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Microsoft SDKs\TypeScript\2.3\;C:\Program Files\nodejs\;C:\Program Files (x86)\Cloud Foundry;C:\Program Files (x86)\Brackets\command;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;D:\kafka\zookeeper-3.4.10\bin;C:\Program Files (x86)\Java\jdk1.8.0_05\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;D:\KR\apache-maven-3.5.3-bin\apache-maven-3.5.3\\bin;D:\KR\spring-boot-cli-2.0.1.BUILD-SNAPSHOT-bin\spring-2.0.1.BUILD-SNAPSHOT\bin;C:\Users\kumarohi\AppData\Local\Microsoft\WindowsApps;

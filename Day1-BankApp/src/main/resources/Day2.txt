@@ -1,0 +1,35 @@
+ Spring Boot
+				
+				Configuration
+				autoConfiguration
+				Enableconfiguration
+				
+				
+				
+				
+				kAfka
+				
+						
+		SET PATH=%PATH%;D:\KR\kafka_2.11-0.9.0.0\kafka_2.11-0.9.0.0\bin;
+		.\bin\windows\kafka-server-start.bat .\config\server1.properties
+		
+		
+				
+		SET PATH=%PATH%;D:\KR\kafka_2.11-0.9.0.0\kafka_2.11-0.9.0.0\bin;
+		.\bin\windows\kafka-server-start.bat .\config\server.properties
+		
+		https://mindmajix.com/quiz/apache-kafka-training
+		
+		kafka-topics.bat --describe --zookeeper localhost:2181
+		
+		
+		kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 2 --topic test2
+		
+		
+		kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic test3
+		
+		
+				kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 5 --partitions 4 --topic test5
+				
+				
+				kafka-producer-perf-test.bat --topic test --num-record 50 --record-size 1 --throughput 10 --producer-props bootstrap.servers=localhost:9092 key.serializer=org.apache.kafka.common.serialization.StringSerializer value.serializer=org.apache.kafka.common.serialization.StringDeserializer
